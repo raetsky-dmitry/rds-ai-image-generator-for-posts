@@ -1,0 +1,185 @@
+/* Дополнительные стили для улучшения UX */
+
+/* Анимация пульсации для кнопки */
+@keyframes aigfpButtonPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(102, 126, 234, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(102, 126, 234, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(102, 126, 234, 0);
+  }
+}
+
+.aigfp-pulse-button {
+  animation: aigfpButtonPulse 2s infinite;
+}
+
+/* Улучшенные уведомления */
+.aigfp-notice {
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border-left: 4px solid;
+  position: relative;
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.aigfp-notice .dashicons {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* Индикатор загрузки SDK */
+#aigfp_sdk_status {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 3px;
+  background: #f8f9fa;
+  display: none;
+}
+
+#aigfp_sdk_status.loading {
+  display: block;
+  color: #ff9800;
+  background: #fff3e0;
+  border-left: 3px solid #ff9800;
+}
+
+#aigfp_sdk_status.ready {
+  display: block;
+  color: #4caf50;
+  background: #f1f8e9;
+  border-left: 3px solid #4caf50;
+}
+
+#aigfp_sdk_status.error {
+  display: block;
+  color: #f44336;
+  background: #ffebee;
+  border-left: 3px solid #f44336;
+}
+
+/* Подсказки */
+.aigfp-tip {
+  font-size: 12px;
+  color: #666;
+  font-style: italic;
+  margin-top: 5px;
+  display: block;
+}
+
+/* Состояние кнопок */
+#aigfp_generate_btn,
+#aigfp_use_image {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 15px;
+  margin: 8px auto;
+}
+
+#aigfp_use_image {
+  background-color: #79b232 !important;
+  border-color: #629027 !important;
+  color: #fff;
+}
+
+#aigfp_generate_btn.loading {
+  position: relative;
+  color: transparent !important;
+}
+
+#aigfp_generate_btn.loading::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+  border: 2px solid #ffffff;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: aigfpSpin 0.8s linear infinite;
+}
+
+@keyframes aigfpSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Адаптивность для мобильных */
+@media screen and (max-width: 782px) {
+  .aigfp-meta-box {
+    padding: 8px;
+  }
+
+  #aigfp_generate_btn,
+  #aigfp_use_image {
+    padding: 12px 5px;
+    font-size: 14px;
+  }
+
+  #aigfp_preview img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Темная тема WordPress */
+@media (prefers-color-scheme: dark) {
+  .aigfp-meta-box {
+    background: #2c3338;
+  }
+
+  .aigfp-meta-box label {
+    color: #f0f0f1;
+  }
+
+  .aigfp-meta-box textarea,
+  .aigfp-meta-box select {
+    background: #32373c;
+    border-color: #4f555c;
+    color: #f0f0f1;
+  }
+
+  .aigfp-meta-box textarea:focus,
+  .aigfp-meta-box select:focus {
+    border-color: #007cba;
+  }
+
+  #aigfp_result {
+    width: 100%;
+    height: 100%;
+    background: #32373c;
+    border-color: #4f555c;
+  }
+
+  .aigfp-tip {
+    color: #a7aaad;
+  }
+}
+
+/* Печать */
+@media print {
+  #aigfp_generate_image {
+    display: none !important;
+  }
+}

@@ -1,0 +1,423 @@
+# Copyright (C) 2024 RD Studio
+# This file is distributed under the same license as the AI Image Generator for Posts.
+msgid ""
+msgstr ""
+"Project-Id-Version: AI Image Generator for Posts 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-18 12:00+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.8\n"
+
+#: rds-ai-image-generator-for-posts.php:4
+msgid "Generates images for posts using AI via Puter.js"
+msgstr "Генерирует изображения для постов с помощью ИИ через Puter.js"
+
+#: rds-ai-image-generator-for-posts.php:7
+msgid "No script kiddies please!"
+msgstr "Пожалуйста, никаких скрипт-кидди!"
+
+#: includes/class-admin.php:39
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class-admin.php:47
+msgid "AI Image Generator Settings"
+msgstr "Настройки AI Image Generator"
+
+#: includes/class-admin.php:48
+msgid "AI Image Generator"
+msgstr ""
+
+#: includes/class-admin.php:163
+msgid "Generate AI Image"
+msgstr "Сгенерировать изображение"
+
+#: includes/class-admin.php:168
+msgid "Generate a featured image for this post using AI."
+msgstr "Сгенерировать изображение для записи с помощью AI."
+
+#: includes/class-admin.php:171
+msgid "Custom Prompt:"
+msgstr "Пользовательский промпт:"
+
+#: includes/class-admin.php:175
+msgid "Customize the AI prompt for image generation."
+msgstr " Настройте AI промпт для генерации изображения."
+
+#: includes/class-admin.php:179
+msgid "Style:"
+msgstr "Стиль:"
+
+#: includes/class-admin.php:181
+msgid "Professional"
+msgstr "Профессиональный"
+
+#: includes/class-admin.php:182
+msgid "Minimalist"
+msgstr "Минималистичный"
+
+#: includes/class-admin.php:183
+msgid "Photorealistic"
+msgstr "Фотореалистичный"
+
+#: includes/class-admin.php:184
+msgid "Illustrated"
+msgstr "Иллюстрированный"
+
+#: includes/class-admin.php:185
+msgid "Artistic"
+msgstr "Артистичный"
+
+#: includes/class-admin.php:186
+msgid "Vintage"
+msgstr "Винтажный"
+
+#: includes/class-admin.php:187
+msgid "Futuristic"
+msgstr "Футуристичный"
+
+#: includes/class-admin.php:192
+msgid "AI Model:"
+msgstr "Модель ИИ:"
+
+#: includes/class-admin.php:194
+msgid "GPT Image 1 Mini (Fastest)"
+msgstr "GPT Image 1 Mini (Самая быстрая)"
+
+#: includes/class-admin.php:195
+msgid "GPT Image 1 (Medium)"
+msgstr "GPT Image 1 (Средняя)"
+
+#: includes/class-admin.php:196
+msgid "DALL-E 3 (Highest Quality)"
+msgstr "DALL-E 3 (Высшее качество)"
+
+#: includes/class-admin.php:201
+msgid "Quality:"
+msgstr "Качество:"
+
+#: includes/class-admin.php:203
+msgid "Low (Fastest)"
+msgstr "Низкое (Самое быстрое)"
+
+#: includes/class-admin.php:204
+msgid "Medium"
+msgstr "Среднее"
+
+#: includes/class-admin.php:205
+msgid "High (Best)"
+msgstr "Высокое (Лучшее)"
+
+#: includes/class-admin.php:209
+msgid "Generate Image"
+msgstr "Сгенерировать изображение"
+
+#: includes/class-admin.php:215
+msgid "Use as Featured Image"
+msgstr "Использовать как миниатюру"
+
+#: includes/class-admin.php:222
+msgid "Generating image..."
+msgstr "Генерация изображения..."
+
+#: includes/class-admin.php:227
+msgid "Loading AI engine..."
+msgstr "Загрузка ИИI движка..."
+
+#: includes/class-admin.php:328
+msgid "Configure the default settings for AI image generation."
+msgstr "Настройте параметры по умолчанию для генерации AI изображений."
+
+#: includes/class-admin.php:344
+msgid "Select the default AI model for image generation."
+msgstr "Выберите ИИ модель по умолчанию для генерации изображений."
+
+#: includes/class-admin.php:359
+msgid "Select the default quality setting."
+msgstr "Выберите настройку качества по умолчанию."
+
+#: includes/class-admin.php:374
+msgid "Default style for generated images."
+msgstr "Стиль генерируемых изображений по умолчанию."
+
+#: assets/js/admin.js:31
+msgid "Uploading image..."
+msgstr "Загрузка изображения..."
+
+#: assets/js/admin.js:39
+msgid "Puter.js SDK not loaded. Please refresh the page."
+msgstr "Puter.js SDK не загружен. Пожалуйста, обновите страницу."
+
+#: assets/js/admin.js:40
+msgid ""
+"There may not be enough funds. Check your balance on the https://puter.com/"
+"dashboard."
+msgstr ""
+"Возможно, недостаточно средств. Проверьте баланс на https://puter.com/"
+"dashboard."
+
+#: assets/js/admin.js:41
+msgid "Error generating image:"
+msgstr "Ошибка при генерации изображения:"
+
+#: assets/js/admin.js:42
+msgid "Featured image set successfully!"
+msgstr "Изображение успешно установлено!"
+
+#: assets/js/admin.js:43
+msgid "Error saving image:"
+msgstr "Ошибка при сохранении изображения:"
+
+#: templates/settings-page.php:17
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+#: templates/settings-page.php:23
+msgid "Usage Instructions"
+msgstr "Инструкции по использованию"
+
+#: templates/settings-page.php:24
+msgid "Create or edit a post"
+msgstr "Создайте или отредактируйте запись"
+
+#: templates/settings-page.php:25
+msgid "Find the \"Generate AI Image\" meta box in the sidebar"
+msgstr "Найдите метабокс \"AI Image Generator\" в боковой панели"
+
+#: templates/settings-page.php:26
+msgid "Adjust the prompt if needed"
+msgstr "При необходимости отредактируйте промпт"
+
+#: templates/settings-page.php:27
+msgid "Click \"Generate Image\""
+msgstr "Нажмите \"Сгенерировать изображение\""
+
+#: templates/settings-page.php:28
+msgid "Use the generated image as featured image"
+msgstr "Используйте сгенерированное изображение как миниатюру"
+
+#: templates/settings-page.php:31
+msgid "About Puter.js"
+msgstr "О Puter.js"
+
+#: templates/settings-page.php:32
+msgid ""
+"This plugin uses the User-Pays Model. Users pay for their own AI credits "
+"when generating images."
+msgstr ""
+"Этот плагин использует модель \"Пользователь платит\". Пользователи "
+"оплачивают свои собственные AI кредиты при генерации изображений."
+
+#: templates/settings-page.php:33
+msgid "This plugin uses a user-based payment model."
+msgstr "Этот плагин использует пользовательскую модель оплаты."
+
+#: templates/settings-page.php:34
+msgid ""
+"This means that you, as the user, will control and pay for the use of "
+"artificial intelligence to generate images. The cost of generating one image "
+"depends on the selected AI model and quality score and is approximately "
+"$0.005 per image. Registration on piter.com will occur automatically the "
+"first time you open the post editing page, without the need to enter an "
+"email address, password, or anything else. Subsequently, you will be "
+"directly logged into your account. No additional authentication is required."
+msgstr ""
+"Это означает, что вы, как пользователь, будете контролировать и оплачивать "
+"использование искусственного интеллекта для генерации изображений. Стоимость "
+"генерации одного изображения зависит от выбранной AI модели и уровня "
+"качества и составляет примерно $0.005 за изображение. Регистрация на "
+"piter.com произойдет автоматически при первом открытии страницы "
+"редактирования записи, без необходимости вводить email, пароль или что-либо "
+"еще. Впоследствии вы будете автоматически входить в свой аккаунт. "
+"Дополнительная аутентификация не требуется."
+
+#: templates/settings-page.php:35
+msgid ""
+"Upon registration, you will be credited with a certain amount of money, "
+"which you can use to test our plugin. Monitor your balance on the Puter.com "
+"dashboard."
+msgstr ""
+"При регистрации вам будет зачислена определенная сумма денег, которую вы "
+"можете использовать для тестирования нашего плагина. Следите за балансом в "
+"панели управления Puter.com."
+
+#: templates/settings-page.php:39
+msgid "Open Puter Dashboard"
+msgstr "Открыть Puter Dashboard"
+
+#: templates/settings-page.php:42
+msgid "Learn more"
+msgstr "Узнать больше"
+
+#: templates/settings-page.php:47
+msgid "Important Information and Disclaimer"
+msgstr "Важная информация и отказ от ответственности"
+
+#: templates/settings-page.php:48
+msgid "1. Third-party AI Service:"
+msgstr "1. Сторонний ИИ сервис:"
+
+#: templates/settings-page.php:49
+msgid ""
+"This plugin uses the third-party Puter.js service for image generation. The "
+"developers of Puter.js are in no way affiliated with the developers of this "
+"plugin and are not responsible for its operation."
+msgstr ""
+"Этот плагин использует сторонний сервис Puter.js для генерации изображений. "
+"Разработчики Puter.js никак не связаны с разработчиками этого плагина и не "
+"несут ответственности за его работу."
+
+#: templates/settings-page.php:52
+msgid "2. Free Distribution:"
+msgstr "2. Бесплатное распространение:"
+
+#: templates/settings-page.php:53
+msgid ""
+"The \"AI Image Generator for Posts\" plugin is provided completely free of "
+"charge and on an \"AS IS\" basis, without any warranties."
+msgstr ""
+"Плагин \"AI Image Generator for Posts\" предоставляется совершенно бесплатно "
+"и на условиях \"КАК ЕСТЬ\", без каких-либо гарантий."
+
+#: templates/settings-page.php:56
+msgid "3. User-Pays Model:"
+msgstr "3. Модель \"Пользователь платит\":"
+
+#: templates/settings-page.php:57
+msgid ""
+"The plugin operates on a \"user-pays\" model. All financial transactions for "
+"image generation occur directly between the user and the Puter.com service."
+msgstr ""
+"Плагин работает по модели \"пользователь платит\". Все финансовые операции "
+"за генерацию изображений происходят напрямую между пользователем и сервисом "
+"Puter.com."
+
+#: templates/settings-page.php:60
+msgid "4. Financial Matters:"
+msgstr "4. Финансовые вопросы:"
+
+#: templates/settings-page.php:61
+msgid ""
+"All issues related to payments, charges, pricing, refunds, and other "
+"financial aspects must be resolved directly with Puter.com administration "
+"through their official support channels."
+msgstr ""
+"Все вопросы, связанные с платежами, списаниями, ценообразованием, возвратами "
+"и другими финансовыми аспектами, должны решаться напрямую с администрацией "
+"Puter.com через их официальные каналы поддержки."
+
+#: templates/settings-page.php:64
+msgid "5. Liability:"
+msgstr "5. Ответственность:"
+
+#: templates/settings-page.php:65
+msgid "The developers of this plugin are not responsible for:"
+msgstr "Разработчики этого плагина не несут ответственности за:"
+
+#: templates/settings-page.php:66
+msgid "The operation and availability of the Puter.js service"
+msgstr "Работу и доступность сервиса Puter.js"
+
+#: templates/settings-page.php:67
+msgid "The quality of generated images"
+msgstr "Качество сгенерированных изображений"
+
+#: templates/settings-page.php:68
+msgid "Financial disputes with Puter.com"
+msgstr "Финансовые споры с Puter.com"
+
+#: templates/settings-page.php:69
+msgid "Changes to Puter.js API or pricing"
+msgstr "Изменения в API Puter.js или ценах"
+
+#: templates/settings-page.php:70
+msgid "Data loss or any other damages"
+msgstr "Потерю данных или любые другие повреждения"
+
+#: includes/class-post-handler.php:22
+msgid "Insufficient permissions"
+msgstr "Недостаточно прав"
+
+#: includes/class-post-handler.php:40
+msgid "AI Generated: %s"
+msgstr "Сгенерировано ИИ:"
+
+#: includes/class-post-handler.php:41
+msgid "Generated with Puter.js AI"
+msgstr "Сгенерировано с помощью Puter.js"
+
+#: includes/class-post-handler.php:42
+msgid "AI Generated Image"
+msgstr "Изображение сгенерированное  ИИ"
+
+#: includes/class-image-generator.php:104
+msgid "Professional blog post featured image for article titled: \"%s\"."
+msgstr ""
+
+#: includes/class-image-generator.php:107
+msgid "Main themes and keywords: %s."
+msgstr ""
+
+#: includes/class-image-generator.php:111
+msgid "Categories: %s."
+msgstr ""
+
+#: includes/class-image-generator.php:115
+msgid "Style: %s."
+msgstr ""
+
+#: includes/class-image-generator.php:116
+msgid "Composition: %s."
+msgstr ""
+
+#: includes/class-image-generator.php:117
+msgid "No text or logos on the image."
+msgstr ""
+
+#: includes/class-image-generator.php:118
+msgid "High quality, detailed, visually appealing."
+msgstr ""
+
+#: includes/class-image-generator.php:174
+msgid "Failed to generate prompt for post #%d"
+msgstr "Не удалось сгенерировать промпт для поста"
+
+#: includes/class-admin.php:121
+msgid "Loading Puter.js SDK..."
+msgstr "Загрузка Puter.js SDK..."
+
+#: includes/class-admin.php:130
+msgid "Puter.js SDK loaded successfully"
+msgstr "Puter.js SDK успешно загружен"
+
+#: includes/class-admin.php:138
+msgid "Failed to load Puter.js SDK"
+msgstr "Не удалось загрузить Puter.js SDK"
+
+#: includes/class-admin.php:142
+msgid ""
+"Failed to load AI engine. Please check your internet connection and refresh "
+"the page."
+msgstr ""
+"Не удалось загрузить AI движок. Пожалуйста, проверьте подключение к "
+"интернету и обновите страницу."
+
+#: includes/class-admin.php:154
+msgid "Puter.js SDK already loaded"
+msgstr "Puter.js SDK уже загружен"
+
+#: includes/class-admin.php:232
+msgid "Professional blog post featured image about: %s."
+msgstr ""
+
+#: includes/class-admin.php:233
+msgid "No text on image, just visual representation."
+msgstr ""

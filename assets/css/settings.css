@@ -1,0 +1,108 @@
+/* assets/css/settings.css */
+.aigfp-settings-wrap {
+  max-width: 800px;
+}
+
+.aigfp-settings-section {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ccd0d4;
+  border-radius: 4px;
+}
+
+.aigfp-settings-section h2 {
+  margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.aigfp-form-table th {
+  width: 200px;
+}
+
+.aigfp-notice-box {
+  background: #f8f9fa;
+  border-left: 4px solid #2271b1;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+.aigfp-stats-box {
+  background: #f0f6fc;
+  border: 1px solid #c3d4e9;
+  padding: 15px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+.aigfp-stats-box h3 {
+  margin-top: 0;
+  color: #2271b1;
+}
+
+.aigfp-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.aigfp-stat-item {
+  background: white;
+  padding: 15px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid #dcdcde;
+}
+
+.aigfp-stat-value {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2271b1;
+  display: block;
+}
+
+.aigfp-stat-label {
+  font-size: 12px;
+  color: #646970;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.puter-links {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.puter-links .button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.settins-desc {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.desc-card {
+  margin-top: 20px;
+  padding: 20px;
+  max-width: unset;
+  width: calc(50% - 10px);
+  background: white;
+  border: 1px solid #ccd0d4;
+}
+
+@media screen and (max-width: 782px) {
+  .settins-desc {
+    flex-direction: column;
+  }
+
+  .desc-card {
+    width: 100%;
+  }
+}

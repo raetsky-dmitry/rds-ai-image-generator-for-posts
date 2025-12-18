@@ -1,0 +1,368 @@
+# Copyright (C) 2024 RD Studio
+# This file is distributed under the same license as the AI Image Generator for Posts.
+msgid ""
+msgstr ""
+"Project-Id-Version: AI Image Generator for Posts 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-18 12:00+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: rds-ai-image-generator-for-posts.php:4
+msgid "Generates images for posts using AI via Puter.js"
+msgstr ""
+
+#: rds-ai-image-generator-for-posts.php:7
+msgid "No script kiddies please!"
+msgstr ""
+
+#: includes/class-admin.php:39
+msgid "Settings"
+msgstr ""
+
+#: includes/class-admin.php:47
+msgid "AI Image Generator Settings"
+msgstr ""
+
+#: includes/class-admin.php:48
+msgid "AI Image Generator"
+msgstr ""
+
+#: includes/class-admin.php:163
+msgid "Generate AI Image"
+msgstr ""
+
+#: includes/class-admin.php:168
+msgid "Generate a featured image for this post using AI."
+msgstr ""
+
+#: includes/class-admin.php:171
+msgid "Custom Prompt:"
+msgstr ""
+
+#: includes/class-admin.php:175
+msgid "Customize the AI prompt for image generation."
+msgstr ""
+
+#: includes/class-admin.php:179
+msgid "Style:"
+msgstr ""
+
+#: includes/class-admin.php:181
+msgid "Professional"
+msgstr ""
+
+#: includes/class-admin.php:182
+msgid "Minimalist"
+msgstr ""
+
+#: includes/class-admin.php:183
+msgid "Photorealistic"
+msgstr ""
+
+#: includes/class-admin.php:184
+msgid "Illustrated"
+msgstr ""
+
+#: includes/class-admin.php:185
+msgid "Artistic"
+msgstr ""
+
+#: includes/class-admin.php:186
+msgid "Vintage"
+msgstr ""
+
+#: includes/class-admin.php:187
+msgid "Futuristic"
+msgstr ""
+
+#: includes/class-admin.php:192
+msgid "AI Model:"
+msgstr ""
+
+#: includes/class-admin.php:194
+msgid "GPT Image 1 Mini (Fastest)"
+msgstr ""
+
+#: includes/class-admin.php:195
+msgid "GPT Image 1 (Medium)"
+msgstr ""
+
+#: includes/class-admin.php:196
+msgid "DALL-E 3 (Highest Quality)"
+msgstr ""
+
+#: includes/class-admin.php:201
+msgid "Quality:"
+msgstr ""
+
+#: includes/class-admin.php:203
+msgid "Low (Fastest)"
+msgstr ""
+
+#: includes/class-admin.php:204
+msgid "Medium"
+msgstr ""
+
+#: includes/class-admin.php:205
+msgid "High (Best)"
+msgstr ""
+
+#: includes/class-admin.php:209
+msgid "Generate Image"
+msgstr ""
+
+#: includes/class-admin.php:215
+msgid "Use as Featured Image"
+msgstr ""
+
+#: includes/class-admin.php:222
+msgid "Generating image..."
+msgstr ""
+
+#: includes/class-admin.php:227
+msgid "Loading AI engine..."
+msgstr ""
+
+#: includes/class-admin.php:328
+msgid "Configure the default settings for AI image generation."
+msgstr ""
+
+#: includes/class-admin.php:344
+msgid "Select the default AI model for image generation."
+msgstr ""
+
+#: includes/class-admin.php:359
+msgid "Select the default quality setting."
+msgstr ""
+
+#: includes/class-admin.php:374
+msgid "Default style for generated images."
+msgstr ""
+
+#: assets/js/admin.js:31
+msgid "Uploading image..."
+msgstr ""
+
+#: assets/js/admin.js:39
+msgid "Puter.js SDK not loaded. Please refresh the page."
+msgstr ""
+
+#: assets/js/admin.js:40
+msgid "There may not be enough funds. Check your balance on the https://puter.com/dashboard."
+msgstr ""
+
+#: assets/js/admin.js:41
+msgid "Error generating image:"
+msgstr ""
+
+#: assets/js/admin.js:42
+msgid "Featured image set successfully!"
+msgstr ""
+
+#: assets/js/admin.js:43
+msgid "Error saving image:"
+msgstr ""
+
+#: templates/settings-page.php:17
+msgid "Save Settings"
+msgstr ""
+
+#: templates/settings-page.php:23
+msgid "Usage Instructions"
+msgstr ""
+
+#: templates/settings-page.php:24
+msgid "Create or edit a post"
+msgstr ""
+
+#: templates/settings-page.php:25
+msgid "Find the \"Generate AI Image\" meta box in the sidebar"
+msgstr ""
+
+#: templates/settings-page.php:26
+msgid "Adjust the prompt if needed"
+msgstr ""
+
+#: templates/settings-page.php:27
+msgid "Click \"Generate Image\""
+msgstr ""
+
+#: templates/settings-page.php:28
+msgid "Use the generated image as featured image"
+msgstr ""
+
+#: templates/settings-page.php:31
+msgid "About Puter.js"
+msgstr ""
+
+#: templates/settings-page.php:32
+msgid "This plugin uses the User-Pays Model. Users pay for their own AI credits when generating images."
+msgstr ""
+
+#: templates/settings-page.php:33
+msgid "This plugin uses a user-based payment model."
+msgstr ""
+
+#: templates/settings-page.php:34
+msgid "This means that you, as the user, will control and pay for the use of artificial intelligence to generate images. The cost of generating one image depends on the selected AI model and quality score and is approximately $0.005 per image. Registration on piter.com will occur automatically the first time you open the post editing page, without the need to enter an email address, password, or anything else. Subsequently, you will be directly logged into your account. No additional authentication is required."
+msgstr ""
+
+#: templates/settings-page.php:35
+msgid "Upon registration, you will be credited with a certain amount of money, which you can use to test our plugin. Monitor your balance on the Puter.com dashboard."
+msgstr ""
+
+#: templates/settings-page.php:39
+msgid "Open Puter Dashboard"
+msgstr ""
+
+#: templates/settings-page.php:42
+msgid "Learn more"
+msgstr ""
+
+#: templates/settings-page.php:47
+msgid "Important Information and Disclaimer"
+msgstr ""
+
+#: templates/settings-page.php:48
+msgid "1. Third-party AI Service:"
+msgstr ""
+
+#: templates/settings-page.php:49
+msgid "This plugin uses the third-party Puter.js service for image generation. The developers of Puter.js are in no way affiliated with the developers of this plugin and are not responsible for its operation."
+msgstr ""
+
+#: templates/settings-page.php:52
+msgid "2. Free Distribution:"
+msgstr ""
+
+#: templates/settings-page.php:53
+msgid "The \"AI Image Generator for Posts\" plugin is provided completely free of charge and on an \"AS IS\" basis, without any warranties."
+msgstr ""
+
+#: templates/settings-page.php:56
+msgid "3. User-Pays Model:"
+msgstr ""
+
+#: templates/settings-page.php:57
+msgid "The plugin operates on a \"user-pays\" model. All financial transactions for image generation occur directly between the user and the Puter.com service."
+msgstr ""
+
+#: templates/settings-page.php:60
+msgid "4. Financial Matters:"
+msgstr ""
+
+#: templates/settings-page.php:61
+msgid "All issues related to payments, charges, pricing, refunds, and other financial aspects must be resolved directly with Puter.com administration through their official support channels."
+msgstr ""
+
+#: templates/settings-page.php:64
+msgid "5. Liability:"
+msgstr ""
+
+#: templates/settings-page.php:65
+msgid "The developers of this plugin are not responsible for:"
+msgstr ""
+
+#: templates/settings-page.php:66
+msgid "The operation and availability of the Puter.js service"
+msgstr ""
+
+#: templates/settings-page.php:67
+msgid "The quality of generated images"
+msgstr ""
+
+#: templates/settings-page.php:68
+msgid "Financial disputes with Puter.com"
+msgstr ""
+
+#: templates/settings-page.php:69
+msgid "Changes to Puter.js API or pricing"
+msgstr ""
+
+#: templates/settings-page.php:70
+msgid "Data loss or any other damages"
+msgstr ""
+
+#: includes/class-post-handler.php:22
+msgid "Insufficient permissions"
+msgstr ""
+
+#: includes/class-post-handler.php:40
+msgid "AI Generated: %s"
+msgstr ""
+
+#: includes/class-post-handler.php:41
+msgid "Generated with Puter.js AI"
+msgstr ""
+
+#: includes/class-post-handler.php:42
+msgid "AI Generated Image"
+msgstr ""
+
+#: includes/class-image-generator.php:104
+msgid "Professional blog post featured image for article titled: \"%s\"."
+msgstr ""
+
+#: includes/class-image-generator.php:107
+msgid "Main themes and keywords: %s."
+msgstr ""
+
+#: includes/class-image-generator.php:111
+msgid "Categories: %s."
+msgstr ""
+
+#: includes/class-image-generator.php:115
+msgid "Style: %s."
+msgstr ""
+
+#: includes/class-image-generator.php:116
+msgid "Composition: %s."
+msgstr ""
+
+#: includes/class-image-generator.php:117
+msgid "No text or logos on the image."
+msgstr ""
+
+#: includes/class-image-generator.php:118
+msgid "High quality, detailed, visually appealing."
+msgstr ""
+
+#: includes/class-image-generator.php:174
+msgid "Failed to generate prompt for post #%d"
+msgstr ""
+
+#: includes/class-admin.php:121
+msgid "Loading Puter.js SDK..."
+msgstr ""
+
+#: includes/class-admin.php:130
+msgid "Puter.js SDK loaded successfully"
+msgstr ""
+
+#: includes/class-admin.php:138
+msgid "Failed to load Puter.js SDK"
+msgstr ""
+
+#: includes/class-admin.php:142
+msgid "Failed to load AI engine. Please check your internet connection and refresh the page."
+msgstr ""
+
+#: includes/class-admin.php:154
+msgid "Puter.js SDK already loaded"
+msgstr ""
+
+#: includes/class-admin.php:232
+msgid "Professional blog post featured image about: %s."
+msgstr ""
+
+#: includes/class-admin.php:233
+msgid "No text on image, just visual representation."
+msgstr ""
