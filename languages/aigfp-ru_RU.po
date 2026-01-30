@@ -34,11 +34,11 @@ msgstr "Настройки AI Image Generator"
 
 #: includes/class-admin.php:48
 msgid "AI Image Generator"
-msgstr ""
+msgstr "AI Image Generator"
 
 #: includes/class-admin.php:163
 msgid "Generate AI Image"
-msgstr "Сгенерировать изображение"
+msgstr "Generate AI Image"
 
 #: includes/class-admin.php:168
 msgid "Generate a featured image for this post using AI."
@@ -50,7 +50,7 @@ msgstr "Пользовательский промпт:"
 
 #: includes/class-admin.php:175
 msgid "Customize the AI prompt for image generation."
-msgstr " Настройте AI промпт для генерации изображения."
+msgstr "Настройте AI промпт для генерации изображения."
 
 #: includes/class-admin.php:179
 msgid "Style:"
@@ -348,7 +348,7 @@ msgstr "Недостаточно прав"
 
 #: includes/class-post-handler.php:40
 msgid "AI Generated: %s"
-msgstr "Сгенерировано ИИ:"
+msgstr "AI Generated: %s"
 
 #: includes/class-post-handler.php:41
 msgid "Generated with Puter.js AI"

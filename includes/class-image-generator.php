@@ -10,6 +10,9 @@ class AIGFP_Image_Generator
 		'image_style' => 'professional',
 		'aspect_ratio' => '4:3'
 	);
+	
+	// Объявление свойства $settings
+	private $settings = array();
 
 	public static function get_instance()
 	{

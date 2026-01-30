@@ -2,7 +2,7 @@
 
 /**
  * Plugin Name: RDS AI Image Generator for Posts
- * Description: <?php _e('Generates images for posts using AI via Puter.js', 'aigfp'); ?>
+ * Description: Автоматическая генерация изображений для постов на основе их содержания с помощью искусственного интелекта
  * Version: 1.0.0
  * Author: RD Studio
  * Text Domain: aigfp
